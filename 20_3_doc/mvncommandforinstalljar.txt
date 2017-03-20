@@ -1,0 +1,19 @@
+https://softwarecave.org/2014/06/14/adding-external-jars-into-maven-project/
+
+
+
+======================================
+Copy ojdbc14.jar to D:\
+Go to D:\ and execute the following maven command:
+D:>mvn install:install-file -Dfile=ojdbc14.jar -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.4.0 -Dpackaging=jar
+add dependency pom.xml
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc14</artifactId>
+    <version>10.2.0.4.0</version>
+</dependency>
+for detail see : http://softwarecave.org/2014/06/14/adding-external-jars-into-maven-project/
+
+
+=========================================
+mvn install:install-file -Dfile=extentreports-2.41.2.jar -DgroupId=com.relevantcodes -DartifactId=extentreports -Dversion=2.41.2 -Dpackaging=jar

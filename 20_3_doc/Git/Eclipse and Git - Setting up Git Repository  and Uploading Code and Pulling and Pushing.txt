@@ -1,0 +1,43 @@
+
+NOTE: the Automation Architecture team will be the ones executing this procedure.  They will create the Git Repositories for each of the applications and they will setup the initial application folder structure in those applications.
+
+
+PUSH CODE INTO GIT REPOSITORY FOR THE FIRST TIME
+
+1. On workstation 6659....Go into GitHub and create new project called nextgen
+2. Log into the box as svc_automation (as an example)
+3. create directory C:\Users\svc_automation\git\nextgen  (nextgen is an example)
+4. Launch DOS Prompt
+5. cd to that directory just created
+6. git init
+7. git add --all
+8. git commit -m "20161107 - Gateway Baseline"
+9. git remote add origin https://svc_automation@git.corp.chartercom.com:8443/scm/taa/nextgen.git
+	NOTE: IF YOU GET ERROR that origin already exists, then run this command first...
+	git remote rm origin
+10. git push -u origin master
+
+NOTE: if you get a Fatal Authentication because credentials to Git are preset and they need to be edited, then go to Control Panel\All Control Panel Items\Credential Manager and edit the Git entry.
+
+
+CONFIGURE ECLIPSE TO CLONE REPOSITORY FROM GIT FIRST TIME
+
+1. Launch Eclipse
+2. In left hand project explorer, select Import
+3. Select Git\Projects from Git
+4. Select Next
+5. Select CloneURI
+
+6. Fill out information
+
+	URI:    	ssh://melking@git.corp.chartercom.com:7999/taa/nextgen.git
+	Host		git.corp.chartercom.com
+	Repository Path	/taa/nextgen.git
+	Protocol	ssh
+	Port		7999
+	User		melking
+	Password	..........
+	click Next button
+
+7. Hit Next
+8. Click Finish
