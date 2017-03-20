@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+	<listeners>
+<!-- 		<listener class-name="com.csg.reports.CustomReports"></listener> -->
+	</listeners>
+	<test name="Default test">
+		<classes>
+			<class name="com.csg.Testscripts.OSMLogin"></class>
+			<!-- <class name="com.csg.Testscripts.OSMCheckStatus"></class>
+			<class name="com.csg.Testscripts.OSMLogout"></class>
+			<class name="com.csg.Testscripts.OSMSearch"></class>
+			<class name="com.csg.Testscripts.OSMSerachByID"></class> -->
+		</classes>
+	</test>
+</suite>

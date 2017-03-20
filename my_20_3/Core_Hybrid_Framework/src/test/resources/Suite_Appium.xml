@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite Appium">
+
+<test name="CreateBooking Test">
+    <classes>
+        <class name="com.xavient.framework.AppiumSuite.AppiumTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

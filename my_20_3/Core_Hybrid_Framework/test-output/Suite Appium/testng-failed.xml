@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Appium]">
+  <test name="CreateBooking Test(failed)">
+    <classes>
+      <class name="com.xavient.framework.AppiumSuite.AppiumTest">
+        <methods>
+          <include name="AppiumDemoAndoridTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.xavient.framework.AppiumSuite.AppiumTest -->
+    </classes>
+  </test> <!-- CreateBooking Test(failed) -->
+</suite> <!-- Failed suite [Suite Appium] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [WEB SUITE]" parallel="methods">
+  <test name="Google Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.xavient.framework.WebApplicationSuite.googleSearchTest">
+        <methods>
+          <include name="googleSearchVerifyTextTestqw" invocation-numbers="0 1 2"/>
+          <include name="googleSearchVerifyTextTest" invocation-numbers="0 1 2"/>
+          <include name="googleSearchVerifyTextTestq" invocation-numbers="0 1 2"/>
+          <include name="googleSearchTest" invocation-numbers="1"/>
+          <include name="config"/>
+        </methods>
+      </class> <!-- com.xavient.framework.WebApplicationSuite.googleSearchTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+</suite> <!-- Failed suite [WEB SUITE] -->

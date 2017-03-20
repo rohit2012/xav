@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test">
+	<listeners>
+		<listener class-name="api.rest.util.ReporterListener" />
+	</listeners>
+	<test verbose="2" name="Rest test">
+<!--  <parameter name="endpoint" value="getData" /> -->
+		<classes>
+			<class name="api.rest.testscript.TestView1" />
+		  	<class name="api.rest.testscript.TestView2" />
+		  	<class name="api.rest.testscript.GetFilterDropdownValues" />
+		</classes>
+	</test> 
+</suite>

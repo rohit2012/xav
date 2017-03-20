@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11403" started-at="2017-02-02T05:48:39Z" finished-at="2017-02-02T05:48:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11403" started-at="2017-02-02T05:48:39Z" finished-at="2017-02-02T05:48:50Z">
+      <class name="com.csg.Testscripts.OSMLogin">
+        <test-method status="PASS" signature="startExecute()[pri:0, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="startExecute" is-config="true" duration-ms="357" started-at="2017-02-02T11:18:39Z" finished-at="2017-02-02T11:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExecute -->
+        <test-method status="PASS" signature="initalizeObjects()[pri:0, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="initalizeObjects" is-config="true" duration-ms="8158" started-at="2017-02-02T11:18:39Z" finished-at="2017-02-02T11:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalizeObjects -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="login" duration-ms="2351" started-at="2017-02-02T11:18:47Z" finished-at="2017-02-02T11:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getStatus(org.testng.ITestResult)[pri:0, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="getStatus" is-config="true" duration-ms="4" started-at="2017-02-02T11:18:50Z" finished-at="2017-02-02T11:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=OSMLogin.login()[pri:1, instance:com.csg.Testscripts.OSMLogin@548b7f67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatus -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="tearDown" is-config="true" duration-ms="323" started-at="2017-02-02T11:18:50Z" finished-at="2017-02-02T11:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopExecution()[pri:0, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="stopExecution" is-config="true" duration-ms="199" started-at="2017-02-02T11:18:50Z" finished-at="2017-02-02T11:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopExecution -->
+        <test-method status="PASS" signature="getReport()[pri:0, instance:com.csg.Testscripts.OSMLogin@548b7f67]" name="getReport" is-config="true" duration-ms="0" started-at="2017-02-02T11:18:50Z" finished-at="2017-02-02T11:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+      </class> <!-- com.csg.Testscripts.OSMLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

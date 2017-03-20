@@ -1,0 +1,70 @@
+{
+  "lobList": [
+    {
+      "name": "Residential",
+      "id": "1200004"
+    }
+  ],
+  "subLobList": [
+    {
+      "id": "1300006",
+      "name": "Residential",
+      "lobCode": null
+    }
+  ],
+  "functionalGroupList": [
+    
+  ],
+  "subfunctionsList": [
+    
+  ],
+  "organizationList": [
+    {
+      "id": "6",
+      "name": "C3"
+    },
+    {
+      "id": "1000",
+      "name": "Cox"
+    },
+    {
+      "id": "10",
+      "name": "Plus One"
+    },
+    {
+      "id": "11",
+      "name": "Sitel"
+    },
+    {
+      "id": "12",
+      "name": "Sutherland"
+    },
+    {
+      "id": "16",
+      "name": "Xerox"
+    }
+  ],
+  "functionsList": [
+    
+  ],
+  "regionList": [
+    {
+      "name": "A",
+      "id": "1"
+    }
+  ],
+  "coeList": [
+    
+  ],
+  "lenguage": "1100001",
+  "timezone": "1",
+  "length": 0,
+  "pageNo": 0,
+  "firstHitFlag": "true",
+  "viewDetail": {
+    "viewName": "RTP View",
+    "baseViewId": "VIEW_2",
+    "viewId": "VIEW_2",
+    "customStatus": "false"
+  }
+}

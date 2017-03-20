@@ -1,0 +1,13 @@
+2016-12-06 11:47:13,517 DEBUG [googleSearchTest - 2] Executing  googleSearchTest - {Runmode=Y, Iteration=2, ExpectedTitle=s, Browser=mozilla}
+2016-12-06 11:47:14,114 DEBUG [googleSearchTest - 2] openBrowser ---  --- Browser
+2016-12-06 11:47:14,114 DEBUG [googleSearchTest - 2] Starting function openBrowser - mozilla
+2016-12-06 11:47:19,530 DEBUG [googleSearchTest - 2] Ending  function openBrowser with status PASS
+2016-12-06 11:47:20,052 DEBUG [googleSearchTest - 2] navigate ---  --- 
+2016-12-06 11:47:20,052 DEBUG [googleSearchTest - 2] Starting function navigate
+2016-12-06 11:47:24,627 DEBUG [googleSearchTest - 2] Ending  function navigate with status PASS
+2016-12-06 11:47:25,180 DEBUG [googleSearchTest - 2] verifyTitle ---  --- ExpectedTitle
+2016-12-06 11:47:25,509 DEBUG [googleSearchTest - 2] FAIL - Titles do not match. Expected -  s. Actual-Google
+2016-12-06 11:47:25,510 DEBUG [googleSearchTest - 2] Fail due some reason=-------------
+2016-12-06 11:47:26,065 DEBUG [googleSearchTest - 2] closeBrowser ---  --- Browser
+2016-12-06 11:47:26,066 DEBUG [googleSearchTest - 2] quitting the driver for browser mozilla
+2016-12-06 11:47:26,617 DEBUG [googleSearchTest - 2] Ending googleSearchTest

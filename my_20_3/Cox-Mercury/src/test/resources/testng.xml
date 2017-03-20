@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="5" verbose="2">
+
+	<parameter name="pdfngreport-properties"
+		value="src/main/resources/report_resource/pdfngreport.properties" />
+
+	<listeners>
+		<listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+		<listener class-name="com.xavient.util.CustomReports.class" />
+	</listeners>
+	
+	<test name="View15">
+		<classes>
+			<class name="com.xavient.test.script.Test_View15"></class>
+		</classes>
+	</test>
+
+</suite>

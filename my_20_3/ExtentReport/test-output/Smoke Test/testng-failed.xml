@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <listeners>
+    <listener class-name="com.csg.reports.CustomReports"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.csg.Testscripts.OSMSearch">
+        <methods>
+          <include name="getStatus"/>
+          <include name="tearDown"/>
+          <include name="searchOrderID"/>
+          <include name="initalizeObjects"/>
+        </methods>
+      </class> <!-- com.csg.Testscripts.OSMSearch -->
+      <class name="com.csg.Testscripts.OSMCheckStatus">
+        <methods>
+          <include name="loginStatus"/>
+        </methods>
+      </class> <!-- com.csg.Testscripts.OSMCheckStatus -->
+      <class name="com.csg.Testscripts.OSMLogin">
+        <methods>
+          <include name="getStatus"/>
+          <include name="tearDown"/>
+          <include name="getReport"/>
+          <include name="initalizeObjects"/>
+          <include name="startExecute"/>
+          <include name="stopExecution"/>
+        </methods>
+      </class> <!-- com.csg.Testscripts.OSMLogin -->
+      <class name="com.csg.Testscripts.OSMSerachByID">
+        <methods>
+          <include name="getStatus"/>
+          <include name="tearDown"/>
+          <include name="serachByID"/>
+          <include name="initalizeObjects"/>
+        </methods>
+      </class> <!-- com.csg.Testscripts.OSMSerachByID -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

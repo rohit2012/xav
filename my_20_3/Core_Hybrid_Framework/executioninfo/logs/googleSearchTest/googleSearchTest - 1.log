@@ -1,0 +1,11 @@
+2016-12-06 11:47:00,337 DEBUG [googleSearchTest - 1] Executing  googleSearchTest - {Runmode=Y, Iteration=1, ExpectedTitle=Google, Browser=mozilla}
+2016-12-06 11:47:00,981 DEBUG [googleSearchTest - 1] openBrowser ---  --- Browser
+2016-12-06 11:47:00,982 DEBUG [googleSearchTest - 1] Starting function openBrowser - mozilla
+2016-12-06 11:47:06,987 DEBUG [googleSearchTest - 1] Ending  function openBrowser with status PASS
+2016-12-06 11:47:07,527 DEBUG [googleSearchTest - 1] navigate ---  --- 
+2016-12-06 11:47:07,528 DEBUG [googleSearchTest - 1] Starting function navigate
+2016-12-06 11:47:11,795 DEBUG [googleSearchTest - 1] Ending  function navigate with status PASS
+2016-12-06 11:47:12,346 DEBUG [googleSearchTest - 1] verifyTitle ---  --- ExpectedTitle
+2016-12-06 11:47:12,899 DEBUG [googleSearchTest - 1] closeBrowser ---  --- Browser
+2016-12-06 11:47:12,899 DEBUG [googleSearchTest - 1] quitting the driver for browser mozilla
+2016-12-06 11:47:13,476 DEBUG [googleSearchTest - 1] Ending googleSearchTest

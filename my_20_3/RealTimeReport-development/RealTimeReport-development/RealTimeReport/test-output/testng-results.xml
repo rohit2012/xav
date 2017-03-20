@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9220" started-at="2016-11-15T13:06:44Z" finished-at="2016-11-15T13:06:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9220" started-at="2016-11-15T13:06:44Z" finished-at="2016-11-15T13:06:53Z">
+      <class name="report.test.google.VerifyGoogleHome">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2016-11-15T18:36:44Z" finished-at="2016-11-15T18:36:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="beforeTest" is-config="true" duration-ms="1676" started-at="2016-11-15T18:36:44Z" finished-at="2016-11-15T18:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGoogleHome()[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="testGoogleHome" duration-ms="2158" started-at="2016-11-15T18:36:46Z" finished-at="2016-11-15T18:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleHome -->
+        <test-method status="PASS" signature="testGoogleWithSearch(java.lang.String)[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="testGoogleWithSearch" duration-ms="679" started-at="2016-11-15T18:36:48Z" data-provider="getdata" finished-at="2016-11-15T18:36:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleWithSearch -->
+        <test-method status="PASS" signature="testGoogleWithSearch(java.lang.String)[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="testGoogleWithSearch" duration-ms="925" started-at="2016-11-15T18:36:49Z" data-provider="getdata" finished-at="2016-11-15T18:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleWithSearch -->
+        <test-method status="PASS" signature="testGoogleWithSearch(java.lang.String)[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="testGoogleWithSearch" duration-ms="564" started-at="2016-11-15T18:36:50Z" data-provider="getdata" finished-at="2016-11-15T18:36:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleWithSearch -->
+        <test-method status="PASS" signature="testGoogleWithSearch(java.lang.String)[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="testGoogleWithSearch" duration-ms="656" started-at="2016-11-15T18:36:51Z" data-provider="getdata" finished-at="2016-11-15T18:36:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleWithSearch -->
+        <test-method status="PASS" signature="testGoogleWithSearch(java.lang.String)[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="testGoogleWithSearch" duration-ms="759" started-at="2016-11-15T18:36:51Z" data-provider="getdata" finished-at="2016-11-15T18:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SeleniumWebDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleWithSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:report.test.google.VerifyGoogleHome@4de8b406]" name="afterTest" is-config="true" duration-ms="949" started-at="2016-11-15T18:36:52Z" finished-at="2016-11-15T18:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- report.test.google.VerifyGoogleHome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

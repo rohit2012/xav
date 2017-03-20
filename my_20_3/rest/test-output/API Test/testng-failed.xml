@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Test]">
+  <listeners>
+    <listener class-name="api.rest.util.ReporterListener"/>
+  </listeners>
+  <test name="Rest test(failed)">
+    <classes>
+      <class name="api.rest.testscript.TestView1">
+        <methods>
+          <include name="view1ListData"/>
+        </methods>
+      </class> <!-- api.rest.testscript.TestView1 -->
+    </classes>
+  </test> <!-- Rest test(failed) -->
+</suite> <!-- Failed suite [API Test] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Libs/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="Libs/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="Libs/freemarker-2.3.25-incubating.jar"/>
+	<classpathentry kind="lib" path="Libs/itextpdf-5.5.10.jar"/>
+	<classpathentry kind="lib" path="Libs/jcommon-1.0.8.jar"/>
+	<classpathentry kind="lib" path="Libs/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="Libs/com.lowagie.text-2.1.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
