@@ -1,0 +1,16 @@
+tutorial :
+http://www.softwaretestingclass.com/hands-on-with-jmeter-tutorial-series-4/
+
+
+json expression:
+http://goessner.net/articles/JsonPath/
+
+json viewer:
+http://jsonviewer.stack.hu/
+
+Install plugin :
+https://jmeter-plugins.org/install/Install/
+
+use java jar:
+http://doloadtest.blogspot.in/2013/04/using-custom-java-class-in-jmeter.html
+https://www.linkedin.com/pulse/using-custom-jar-beanshell-sampler-jmeter-lakshmi-narayan
