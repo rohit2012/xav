@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WEB SUITE" parallel="methods" thread-count="3">
+
+<test name="Google Test">
+    <classes>
+        <class name="com.xavient.framework.WebApplicationSuite.googleSearchTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

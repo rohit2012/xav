@@ -1,0 +1,21 @@
+2016-05-20 11:04:10,201 DEBUG [googleSearchVerifyTextTest - 1] Executing  googleSearchVerifyTextTest - {SearchText=HCL, Runmode=Y, Iteration=1, Expected=HCL, Browser=mozilla}
+2016-05-20 11:04:10,247 DEBUG [googleSearchVerifyTextTest - 1] openBrowser ---  --- Browser
+2016-05-20 11:04:10,248 DEBUG [googleSearchVerifyTextTest - 1] Starting function openBrowser - mozilla
+2016-05-20 11:04:15,583 DEBUG [googleSearchVerifyTextTest - 1] Ending  function openBrowser with status PASS
+2016-05-20 11:04:15,610 DEBUG [googleSearchVerifyTextTest - 1] navigate ---  --- 
+2016-05-20 11:04:15,610 DEBUG [googleSearchVerifyTextTest - 1] Starting function navigate
+2016-05-20 11:04:21,625 DEBUG [googleSearchVerifyTextTest - 1] Ending  function navigate with status PASS
+2016-05-20 11:04:21,667 DEBUG [googleSearchVerifyTextTest - 1] input --- searchBox_name --- SearchText
+2016-05-20 11:04:21,667 DEBUG [googleSearchVerifyTextTest - 1] Starting function inputsearchBox_name , HCL
+2016-05-20 11:04:21,667 DEBUG [googleSearchVerifyTextTest - 1] Finding element searchBox_name
+2016-05-20 11:04:22,074 DEBUG [googleSearchVerifyTextTest - 1] Ending  function click with status PASS
+2016-05-20 11:04:22,094 DEBUG [googleSearchVerifyTextTest - 1] submit --- searchBox_name --- 
+2016-05-20 11:04:22,094 DEBUG [googleSearchVerifyTextTest - 1] Starting function submit
+2016-05-20 11:04:22,094 DEBUG [googleSearchVerifyTextTest - 1] Finding element searchBox_name
+2016-05-20 11:04:22,206 DEBUG [googleSearchVerifyTextTest - 1] Ending  function submit with status PASS
+2016-05-20 11:04:22,239 DEBUG [googleSearchVerifyTextTest - 1] verifyGoogleSearch --- searchResults_xpath --- Expected
+2016-05-20 11:04:22,239 DEBUG [googleSearchVerifyTextTest - 1] Verifying the Search Results by google
+2016-05-20 11:04:25,054 DEBUG [googleSearchVerifyTextTest - 1] Ending Function verifyGoogleSearch with status Pass
+2016-05-20 11:04:25,091 DEBUG [googleSearchVerifyTextTest - 1] closeBrowser ---  --- Browser
+2016-05-20 11:04:25,091 DEBUG [googleSearchVerifyTextTest - 1] quitting the driver for browser mozilla
+2016-05-20 11:04:25,140 DEBUG [googleSearchVerifyTextTest - 1] Ending googleSearchVerifyTextTest

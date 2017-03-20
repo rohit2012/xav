@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/avalon-framework-api-4.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/avalon-framework-api-4.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/avalon-framework-impl-4.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/avalon-framework-impl-4.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-anim-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-awt-util-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-bridge-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-css-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-dom-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-ext-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-extension-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-gvt-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-parser-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-script-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-svg-dom-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-svggen-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-transcoder-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-util-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/batik-xml-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/commons-io-1.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/fop-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/hamcrest-core-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/jcommander-1.27.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/jcommon-1.0.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/jfreechart-1.0.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/junit-4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/snakeyaml-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/testng-6.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/xalan-2.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/xml-apis-1.3.04.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/xmlgraphics-commons-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="ext-lib/pdfngreport-2.0.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

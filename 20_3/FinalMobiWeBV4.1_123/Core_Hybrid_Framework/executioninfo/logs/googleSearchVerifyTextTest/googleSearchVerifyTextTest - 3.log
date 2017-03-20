@@ -1,0 +1,22 @@
+2016-05-20 11:04:41,277 DEBUG [googleSearchVerifyTextTest - 3] Executing  googleSearchVerifyTextTest - {SearchText=PRANAV, Runmode=y, Iteration=3, Expected=PRANAV, Browser=mozilla}
+2016-05-20 11:04:41,315 DEBUG [googleSearchVerifyTextTest - 3] openBrowser ---  --- Browser
+2016-05-20 11:04:41,316 DEBUG [googleSearchVerifyTextTest - 3] Starting function openBrowser - mozilla
+2016-05-20 11:04:46,185 DEBUG [googleSearchVerifyTextTest - 3] Ending  function openBrowser with status PASS
+2016-05-20 11:04:46,235 DEBUG [googleSearchVerifyTextTest - 3] navigate ---  --- 
+2016-05-20 11:04:46,235 DEBUG [googleSearchVerifyTextTest - 3] Starting function navigate
+2016-05-20 11:04:56,826 DEBUG [googleSearchVerifyTextTest - 3] Ending  function navigate with status PASS
+2016-05-20 11:04:56,858 DEBUG [googleSearchVerifyTextTest - 3] input --- searchBox_name --- SearchText
+2016-05-20 11:04:56,859 DEBUG [googleSearchVerifyTextTest - 3] Starting function inputsearchBox_name , PRANAV
+2016-05-20 11:04:56,859 DEBUG [googleSearchVerifyTextTest - 3] Finding element searchBox_name
+2016-05-20 11:04:57,314 DEBUG [googleSearchVerifyTextTest - 3] Ending  function click with status PASS
+2016-05-20 11:04:57,337 DEBUG [googleSearchVerifyTextTest - 3] submit --- searchBox_name --- 
+2016-05-20 11:04:57,337 DEBUG [googleSearchVerifyTextTest - 3] Starting function submit
+2016-05-20 11:04:57,337 DEBUG [googleSearchVerifyTextTest - 3] Finding element searchBox_name
+2016-05-20 11:04:57,379 DEBUG [googleSearchVerifyTextTest - 3] Ending  function submit with status PASS
+2016-05-20 11:04:57,407 DEBUG [googleSearchVerifyTextTest - 3] verifyGoogleSearch --- searchResults_xpath --- Expected
+2016-05-20 11:04:57,407 DEBUG [googleSearchVerifyTextTest - 3] Verifying the Search Results by google
+2016-05-20 11:05:00,152 DEBUG [googleSearchVerifyTextTest - 3] FAIL - DATA DOES NOT MATCH THE EXCPECTED PRANAV actual http://indianexpress.com/article/sports/cricket/pictures-tell-a-1000-runs-25-chances-10-year-old-pacers-30-yard-boundaries/
+2016-05-20 11:05:00,152 DEBUG [googleSearchVerifyTextTest - 3] Fail due some reason=-------------
+2016-05-20 11:05:00,217 DEBUG [googleSearchVerifyTextTest - 3] closeBrowser ---  --- Browser
+2016-05-20 11:05:00,217 DEBUG [googleSearchVerifyTextTest - 3] quitting the driver for browser mozilla
+2016-05-20 11:05:00,248 DEBUG [googleSearchVerifyTextTest - 3] Ending googleSearchVerifyTextTest

@@ -1,0 +1,7 @@
+2016-05-20 11:05:05,581 DEBUG [googleSearchVerifyTextTestq - 3] Executing  googleSearchVerifyTextTestq - {SearchText=, Runmode=Y, Iteration=3, Expected=, Browser=mozilla}
+2016-05-20 11:05:05,643 DEBUG [googleSearchVerifyTextTestq - 3] openBrowser ---  --- Browser
+2016-05-20 11:05:05,643 DEBUG [googleSearchVerifyTextTestq - 3] Starting function openBrowser - mozilla
+2016-05-20 11:05:10,828 DEBUG [googleSearchVerifyTextTestq - 3] Ending  function openBrowser with status PASS
+2016-05-20 11:05:10,854 DEBUG [googleSearchVerifyTextTestq - 3] closeBrowser ---  --- Browser
+2016-05-20 11:05:10,854 DEBUG [googleSearchVerifyTextTestq - 3] quitting the driver for browser mozilla
+2016-05-20 11:05:10,958 DEBUG [googleSearchVerifyTextTestq - 3] Ending googleSearchVerifyTextTestq

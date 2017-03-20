@@ -1,0 +1,13 @@
+2016-05-20 11:05:11,009 DEBUG [googleSearchVerifyTextTestqw - 2] Executing  googleSearchVerifyTextTestqw - {Runmode=Y, Iteration=2, Expected=, ExpectedTitle=Come, Browser=mozilla}
+2016-05-20 11:05:11,042 DEBUG [googleSearchVerifyTextTestqw - 2] openBrowser ---  --- Browser
+2016-05-20 11:05:11,043 DEBUG [googleSearchVerifyTextTestqw - 2] Starting function openBrowser - mozilla
+2016-05-20 11:05:16,563 DEBUG [googleSearchVerifyTextTestqw - 2] Ending  function openBrowser with status PASS
+2016-05-20 11:05:16,611 DEBUG [googleSearchVerifyTextTestqw - 2] navigate ---  --- 
+2016-05-20 11:05:16,611 DEBUG [googleSearchVerifyTextTestqw - 2] Starting function navigate
+2016-05-20 11:05:26,976 DEBUG [googleSearchVerifyTextTestqw - 2] Ending  function navigate with status PASS
+2016-05-20 11:05:26,999 DEBUG [googleSearchVerifyTextTestqw - 2] verifyTitle ---  --- ExpectedTitle
+2016-05-20 11:05:27,451 DEBUG [googleSearchVerifyTextTestqw - 2] FAIL - Titles do not match. Expected -  Come. Actual-Google
+2016-05-20 11:05:27,451 DEBUG [googleSearchVerifyTextTestqw - 2] Fail due some reason=-------------
+2016-05-20 11:05:27,474 DEBUG [googleSearchVerifyTextTestqw - 2] closeBrowser ---  --- Browser
+2016-05-20 11:05:27,475 DEBUG [googleSearchVerifyTextTestqw - 2] quitting the driver for browser mozilla
+2016-05-20 11:05:27,517 DEBUG [googleSearchVerifyTextTestqw - 2] Ending googleSearchVerifyTextTestqw

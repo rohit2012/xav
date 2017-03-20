@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite 1">
+
+	<test name="Simple Reporter test">
+		<classes>
+			<class name="com.uttesh.pdfngreport.AmazonTests" />
+			<class name="com.uttesh.pdfngreport.GoogleTest" />
+		</classes>
+	</test>
+</suite>
+

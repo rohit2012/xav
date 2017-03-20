@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92391" started-at="2016-05-20T05:33:55Z" finished-at="2016-05-20T05:35:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92391" started-at="2016-05-20T05:33:55Z" finished-at="2016-05-20T05:35:27Z">
+      <class name="com.xavient.framework.WebApplicationSuite.googleSearchTest">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="config" is-config="true" duration-ms="1670" started-at="2016-05-20T11:03:55Z" finished-at="2016-05-20T11:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="SKIP" signature="googleSearchTest(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchTest" duration-ms="63" started-at="2016-05-20T11:03:56Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:03:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Iteration=1, ExpectedTitle=Google, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test googleSearchTest as runmode of data set was NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test googleSearchTest as runmode of data set was NO
+	at com.xavient.framework.util.Utility.validateTestExecution(Utility.java:119)
+	at com.xavient.framework.WebApplicationSuite.googleSearchTest.googleSearchTest(googleSearchTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="googleSearchTest(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchTest" duration-ms="13268" started-at="2016-05-20T11:03:56Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:04:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Iteration=2, ExpectedTitle=s, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="googleSearchVerifyTextTest(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTest" duration-ms="14953" started-at="2016-05-20T11:04:10Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:04:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=HCL, Runmode=Y, Iteration=1, Expected=HCL, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTest -->
+        <test-method status="PASS" signature="googleSearchVerifyTextTest(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTest" duration-ms="16124" started-at="2016-05-20T11:04:25Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:04:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=FIROZ, Runmode=Y, Iteration=2, Expected=FIROZ, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTest -->
+        <test-method status="PASS" signature="googleSearchVerifyTextTest(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTest" duration-ms="18982" started-at="2016-05-20T11:04:41Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=PRANAV, Runmode=y, Iteration=3, Expected=PRANAV, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTest -->
+        <test-method status="PASS" signature="googleSearchVerifyTextTestq(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTestq" duration-ms="5207" started-at="2016-05-20T11:05:00Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=, Runmode=Y, Iteration=1, Expected=, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTestq -->
+        <test-method status="SKIP" signature="googleSearchVerifyTextTestq(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTestq" duration-ms="18" started-at="2016-05-20T11:05:05Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=, Runmode=N, Iteration=2, Expected=, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test googleSearchVerifyTextTestq as runmode of data set was NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test googleSearchVerifyTextTestq as runmode of data set was NO
+	at com.xavient.framework.util.Utility.validateTestExecution(Utility.java:119)
+	at com.xavient.framework.WebApplicationSuite.googleSearchTest.googleSearchVerifyTextTestq(googleSearchTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTestq -->
+        <test-method status="PASS" signature="googleSearchVerifyTextTestq(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTestq" duration-ms="5465" started-at="2016-05-20T11:05:05Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchText=, Runmode=Y, Iteration=3, Expected=, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTestq -->
+        <test-method status="SKIP" signature="googleSearchVerifyTextTestqw(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTestqw" duration-ms="21" started-at="2016-05-20T11:05:10Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Iteration=1, Expected=, ExpectedTitle=Google, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test googleSearchVerifyTextTestqw as runmode of data set was NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test googleSearchVerifyTextTestqw as runmode of data set was NO
+	at com.xavient.framework.util.Utility.validateTestExecution(Utility.java:119)
+	at com.xavient.framework.WebApplicationSuite.googleSearchTest.googleSearchVerifyTextTestqw(googleSearchTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTestqw -->
+        <test-method status="PASS" signature="googleSearchVerifyTextTestqw(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTestqw" duration-ms="16522" started-at="2016-05-20T11:05:10Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Iteration=2, Expected=, ExpectedTitle=Come, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTestqw -->
+        <test-method status="SKIP" signature="googleSearchVerifyTextTestqw(java.util.Hashtable)[pri:0, instance:com.xavient.framework.WebApplicationSuite.googleSearchTest@1794d431]" name="googleSearchVerifyTextTestqw" duration-ms="20" started-at="2016-05-20T11:05:27Z" data-provider="getDataForWebApplicationSuite" finished-at="2016-05-20T11:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Iteration=3, Expected=, ExpectedTitle=Google, Browser=mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test googleSearchVerifyTextTestqw as runmode of data set was NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test googleSearchVerifyTextTestqw as runmode of data set was NO
+	at com.xavient.framework.util.Utility.validateTestExecution(Utility.java:119)
+	at com.xavient.framework.WebApplicationSuite.googleSearchTest.googleSearchVerifyTextTestqw(googleSearchTest.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchVerifyTextTestqw -->
+      </class> <!-- com.xavient.framework.WebApplicationSuite.googleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

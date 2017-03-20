@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple Reporter Suite]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener"/>
+  </listeners>
+  <test name="Simple Reporter test(failed)">
+    <classes>
+      <class name="com.uttesh.pdfngreport.SunalpsTest">
+        <methods>
+          <include name="testA"/>
+          <include name="testC"/>
+        </methods>
+      </class> <!-- com.uttesh.pdfngreport.SunalpsTest -->
+      <class name="com.uttesh.pdfngreport.AmazonTests">
+        <methods>
+          <include name="Page4Test"/>
+          <include name="Page1Test"/>
+        </methods>
+      </class> <!-- com.uttesh.pdfngreport.AmazonTests -->
+      <class name="com.uttesh.pdfngreport.SmitJainTest">
+        <methods>
+          <include name="Page1Test"/>
+          <include name="Page5Test"/>
+          <include name="Page4Test"/>
+          <include name="Page2Test"/>
+          <include name="Page3Test"/>
+        </methods>
+      </class> <!-- com.uttesh.pdfngreport.SmitJainTest -->
+      <class name="com.uttesh.pdfngreport.GoogleTest">
+        <methods>
+          <include name="GooglePage3Test"/>
+          <include name="GooglePage1Test"/>
+        </methods>
+      </class> <!-- com.uttesh.pdfngreport.GoogleTest -->
+    </classes>
+  </test> <!-- Simple Reporter test(failed) -->
+</suite> <!-- Failed suite [Simple Reporter Suite] -->

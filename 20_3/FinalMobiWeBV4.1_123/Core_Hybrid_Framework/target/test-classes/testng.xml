@@ -1,0 +1,11 @@
+<suite name="My suite" > 
+<!--  <listeners>
+       <listener class-name="com.xavient.framework.util.TestListener"/>-->
+  <suite-files>
+   <suite-file path="./webApplicationSuite.xml" />
+
+   
+  </suite-files>
+   
+ <!-- </listeners>-->
+</suite>

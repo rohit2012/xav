@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Simple Reporter Suite">
+
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties" />
+  
+  <listeners>
+    <listener class-name="com.uttesh.pdfngreport.PDFReportListener" />
+  </listeners>
+
+<!--    <suite-files> -->
+<!--          <suite-file path="testng-1.xml"></suite-file>  -->
+<!--         <suite-file path="testng-2.xml"></suite-file> -->
+<!--     </suite-files> -->
+    
+  <test name="Simple Reporter test">
+    <classes>
+      <class name="com.uttesh.pdfngreport.AmazonTests" />
+      <class name="com.uttesh.pdfngreport.GoogleTest" />
+	  <class name="com.uttesh.pdfngreport.SunalpsTest" />
+	  <class name="com.uttesh.pdfngreport.SmitJainTest" />
+	  <class name="com.uttesh.pdfngreport.DeepalicrbiggggggggggggggggggggggggggggtextTest" />
+    </classes>
+  </test>
+</suite>
+
