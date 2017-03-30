@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.chtr.tmoauto</groupId>
+  <artifactId>T3</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>T3</name>
+  <description>TMO Automation Framework</description>
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<compiler.version>1.8</compiler.version>
+	</properties>
+  <dependencies>
+  	<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0.4.0</version>
+		</dependency>
+  	<!-- Add following dependency to framework functions from public repository -->
+	<dependency>
+		<groupId>com.chtr.tmoauto</groupId>
+		<artifactId>Framework</artifactId>
+		<version>2.0</version>
+	</dependency>
+  		
+  </dependencies>
+  
+ <!--  <repositories>
+		This allows application pom to refer to our public framework repository
+		<repository>
+		        <id>central</id>
+		        <url>http://kstlitqavm033.corp.chartercom.com:8081/artifactory/libs-release</url>
+		        <snapshots>
+			        <enabled>false</enabled>
+		        </snapshots>
+		</repository>
+ </repositories> -->
+    
+</project>

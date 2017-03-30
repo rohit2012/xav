@@ -1,0 +1,9 @@
+/bin/
+/target/
+
+.classpath
+.project
+/webservices
+/target
+/logs
+/variables
