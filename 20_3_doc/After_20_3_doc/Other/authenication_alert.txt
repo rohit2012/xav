@@ -1,0 +1,7 @@
+WebDriverWait wait = new WebDriverWait(GUI.driver, 10);
+Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+alert.authenticateUsing(new UserAndPassword(Username, Passwd));
+
+
+if space is in xpath then write :: //label[text()='Radio:(alt+255)']
+:: (alt+255) => to add space 

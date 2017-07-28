@@ -1,0 +1,696 @@
+
+All changes plugin
+This plugin shows all changes (also from dependent projects, sub-projects, ...) for a project
+1.4		
+Uninstall
+	
+Ant Plugin
+Adds Apache Ant support to Jenkins
+1.4		
+Uninstall
+	
+AppDynamics Dashboard Plugin for Jenkins
+This plugin makes it possible to integrate data from AppDynamics into your Jenkins build.
+A performance test should be run during build time (e.g. by using JMeter), and having AppDynamics connected to your application. After the build, the performance statistics will be fetched from the REST uri and shown in the Jenkins interface.
+1.0.14		
+Uninstall
+	
+Authentication Tokens API Plugin
+This plugin provides an API for converting credentials into authentication tokens in Jenkins.
+1.3		
+Uninstall
+	
+Bitbucket Approve Plugin
+This plugin enables Jenkins to approve commits on Bitbucket after successful builds.
+1.0.3		
+Uninstall
+	
+Bitbucket Build Status Notifier Plugin
+This plugin is a Bitbucket build status notifier that can publish your build status to Bitbucket Cloud.
+1.3.3	
+Downgrade to 1.3.1
+Uninstall
+	
+BlazeMeter plugin
+This plugin integrates BlazeMeter - the cloud load testing service to Jenkins.
+2.7		
+Uninstall
+	
+bouncycastle API Plugin
+This plugin provides an stable API to Bouncy Castle related tasks.
+2.16.1	
+Downgrade to 2.16.0
+Uninstall
+	
+Branch API Plugin
+This plugin provides an API for multiple branch based projects.
+2.0.8	
+Downgrade to 1.11.1
+Uninstall
+	
+BrowserStack
+This plugin allows you to integrate with BrowserStack.
+1.0.7		
+Uninstall
+	
+Build Environment Plugin
+This plugin shows information about the environment in which a project has been build and offers the option to comptare there environments.
+1.6		
+Uninstall
+	
+Build Failure Analyzer
+Jenkins Build Failure Analyzer Plugin
+1.18.1	
+Downgrade to 1.17.2
+Uninstall
+	
+build timeout plugin
+This plugin allows builds to be automatically terminated after the specified amount of time has elapsed.
+1.18		
+Uninstall
+	
+Build With Parameters
+Allows the user to provide parameters for a build in the url (similar to /job/JOBNAME/buildWithParameters), prompting for confirmation before triggering the job.
+1.3		
+Uninstall
+	
+build-metrics
+This plugin uses the Global Build Stats to generate some basic build metrics.
+1.3		
+Uninstall
+	
+CodeSonar Plugin
+A plugin that integrates with GrammaTech Codesonar.
+2.0.5 (cf87a)	
+Downgrade to 2.0.4 (f7bad)
+Uninstall
+	
+Copy To Slave Plugin
+This plugin allows copying files located somewhere on the master node into the jobs' workspaces, whether their builds take place on the master node or on slave nodes.
+1.4.4		
+Uninstall
+	
+Credentials Binding Plugin
+Allows credentials to be bound to environment variables for use from miscellaneous build steps.
+1.11	
+Downgrade to 1.10
+Uninstall
+	
+Credentials Plugin
+This plugin allows you to store credentials in Jenkins.
+2.1.13	
+Downgrade to 2.1.10
+Uninstall
+	
+Cucumber reports
+This project provides pretty html reports for Cucumber. It works by generating html from the cucumber json report formatter. Can be used anywhere a json report is generated (Java, Ruby, JavaScript and other implementations).
+3.6.1	
+Downgrade to 3.4.0
+Uninstall
+	
+cucumber-perf
+This plugin collects and displays information on the performance of Cucumber tests, particularly duration of each test step.
+2.0.9		
+Uninstall
+	
+cucumber-slack-notifier
+This plugins posts summarised Cucumber report information to Slack
+0.8.3		
+Uninstall
+	
+Dashboard View
+Customizable dashboard that can present various views of job information.
+2.9.10		
+Uninstall
+	
+Display URL API
+Provides the DisplayURLProvider extension point to provide alternate URLs for use in notifications
+1.1.1	
+Downgrade to 0.5
+Uninstall
+	
+Docker Commons Plugin
+Provides the common shared functionality for various Docker-related plugins.
+1.6		
+Uninstall
+	
+Docker Pipeline
+Build and use Docker containers from pipelines.
+1.10		
+Uninstall
+	
+Durable Task Plugin
+Library offering an extension point for processes which can run outside of Jenkins yet be monitored.
+1.13	
+Downgrade to 1.12
+Uninstall
+	
+ElasticBox Jenkins Kubernetes CI/CD Plug-in
+Provides integration between Jenkins and Kubernetes for CI/CD scenarios based on charts
+1.3	
+Downgrade to 1.2
+Uninstall
+	
+Elasticsearch Query
+This plugin is used to query elasticsearch
+1.2		
+Uninstall
+	
+Email Extension Plugin
+This plugin is a replacement for Jenkins's email publisher
+2.57.2	
+Downgrade to 2.54
+Uninstall
+	
+Environment Injector Plugin
+This plugin makes it possible to set an environment for the builds.
+2.0	
+Downgrade to 1.93.1
+Uninstall
+	
+Export Prameters
+This plugin exports parameters provided by Jenkins to file with various formats.
+1.9		
+Uninstall
+	
+External Monitor Job Type Plugin
+Adds the ability to monitor the result of externally executed jobs
+1.7	
+Downgrade to 1.6
+Uninstall
+	
+FitNesse plugin
+This plugin can launch fitnesse tests as a build step and display reports as a post-build step.
+1.16		
+Uninstall
+	
+Folders Plugin
+This plugin allows users to create "folders" to organize jobs. Users can define custom taxonomies (like by project type, organization type etc). Folders are nestable and you can define views within folders. Maintained by CloudBees, Inc.
+6.0.3	
+Downgrade to 5.16
+Uninstall
+	
+Git client plugin
+Utility plugin for Git support in Jenkins
+2.4.1	
+Downgrade to 2.2.1
+Uninstall
+	
+Git plugin
+This plugin integrates Git with Jenkins.
+3.2.0	
+Downgrade to 3.0.1
+Uninstall
+	
+GIT server Plugin
+Allows Jenkins to act as a Git server.
+1.7		
+Uninstall
+	
+GitHub API Plugin
+This plugin provides GitHub API for other plugins.
+1.85	
+Downgrade to 1.84
+Uninstall
+	
+GitHub Authentication plugin
+Authentication plugin using GitHub OAuth to provide authentication and authorization capabilities for GitHub and GitHub Enterprise.
+0.25		
+Uninstall
+	
+GitHub Branch Source Plugin
+Multibranch projects and organization folders from GitHub. Maintained by CloudBees, Inc.
+2.0.5	
+Downgrade to 1.10.1
+Uninstall
+	
+GitHub Issues Plugin
+This plugin creates GitHub issues when builds fail, and automatically closes the issue when the build starts passing again.
+1.2.2	
+Downgrade to 1.2
+Uninstall
+	
+GitHub Organization Folder Plugin
+The functionality that was provided by this plugin has been moved to the GitHub Branch Source plugin. You can safely delete this plugin once there are no plugins that depend on this plugin installed.
+1.6	
+Downgrade to 1.5
+Uninstall
+	
+GitHub plugin
+This plugin integrates GitHub to Jenkins.
+1.26.2	
+Downgrade to 1.25.1
+Uninstall
+	
+Groovy
+2.0	
+Downgrade to 1.30
+Uninstall
+	
+HipChat Plugin
+This plugin is a HipChat notifier that can publish build status to HipChat rooms.
+2.1.1	
+Downgrade to 2.0.0
+Uninstall
+	
+HTTP Request Plugin
+This plugin sends a http request to an url with some parameters. See the release notes for changes and compatibility https://github.com/jenkinsci/http-request-plugin/releases
+1.8.18	
+Downgrade to 1.8.13
+Uninstall
+	
+Hudson global-build-stats plugin
+This plugin will allow you to manage global hudson build stats concerning build failures
+1.4		
+Uninstall
+	
+Hudson Post build task
+This plugin allows to execute a batch/shell task depending on the build log output.
+1.8		
+Uninstall
+	
+Icon Shim Plugin
+Allows plugins make full use of the <l:icon> layout tag when running on newer versions of Jenkins, while still being compatible with older versions.
+2.0.3		
+Uninstall
+	
+instant-messaging plugin
+This plugin provides abstract support for build notification via instant-messaging.
+1.35		
+Uninstall
+	
+Javadoc Plugin
+1.4		
+Uninstall
+	
+JavaScript GUI Lib: ACE Editor bundle plugin
+JavaScript GUI Lib: ACE Editor bundle plugin.
+1.1		
+Uninstall
+	
+JavaScript GUI Lib: Handlebars bundle plugin
+JavaScript GUI Lib: Handlebars bundle plugin.
+1.1.1		
+Uninstall
+	
+JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin
+JavaScript GUI Lib: jQuery bundles (jQuery and jQuery UI) plugin.
+1.2.1		
+Uninstall
+	
+JavaScript GUI Lib: Moment.js bundle plugin
+JavaScript GUI Lib: Moment.js bundle plugin.
+1.1.1		
+Uninstall
+	
+jQuery plugin
+This allows other plugins to use jQuery in UI.
+1.11.2-0		
+Uninstall
+	
+JUnit Plugin
+Allows JUnit-format test results to be published.
+1.20	
+Downgrade to 1.19
+Uninstall
+	
+Kanboard Plugin
+This plugin allows to create or update a Kanboard task as a post-build action, to trigger a build when a task is created or moved, and to fetch a task and its attachments as a build step.
+1.5.8	
+Downgrade to 1.5.7
+Uninstall
+	
+LDAP Plugin
+Adds LDAP authentication to Jenkins
+1.14	
+Downgrade to 1.13
+Uninstall
+	
+Mailer Plugin
+This plugin allows you to configure email notifications for build results
+1.20	
+Downgrade to 1.18
+Uninstall
+	
+MapDB API Plugin
+This plugin provides a shared dependency on the MapDB library so that other plugins can co-operate when using this library.
+1.0.9.0		
+Uninstall
+	
+Matrix Authorization Strategy Plugin
+Offers matrix-based security authorization strategies (global and per-project).
+1.5	
+Downgrade to 1.4
+Uninstall
+	
+Matrix Project Plugin
+Multi-configuration (matrix) project type.
+1.9	
+Downgrade to 1.8
+Uninstall
+	
+Maven Integration plugin
+This plug-in provides, for better and for worse, a deep integration of Jenkins and Maven: Automatic triggers between projects depending on SNAPSHOTs, automated configuration of various Jenkins publishers (Junit, ...).
+2.15.1	
+Downgrade to 2.14
+Uninstall
+	
+Mercurial plugin
+This plugin integrates Mercurial SCM with Hudson. It includes repository browsing support for hg serve/hgweb, Google Code, Bitbucket, FishEye, KilnHG and RhodeCode. Features include guaranteed clean builds, named branch support, module lists, Mercurial tool installation, and automatic caching.
+1.59	
+Downgrade to 1.57
+Uninstall
+	
+Multi slave config plugin
+This plugin allows administrators to configure, add and delete several dumb slaves at the same time.
+1.2.0		
+Uninstall
+	
+Multiple SCMs plugin
+This plugin enables the selection of multiple source code management systems for a build. For example, it enables checking out the source code from one SCM while checking out legacy or third-party code from another.
+0.6		
+Uninstall
+	
+Node and Label parameter plugin
+The node and label parameter plugin allows to dynamically select the node on which a job should be executed.
+1.7.2		
+Uninstall
+	
+Office 365 Connector
+This plugin from Microsoft Corp. allows sending running Jobs status notifications.
+2.4.2	
+Downgrade to 2.3
+Uninstall
+	
+OWASP Markup Formatter Plugin
+Uses the OWASP Java HTML Sanitizer to allow safe-seeming HTML markup to be entered in project descriptions and the like.
+1.5		
+Uninstall
+	
+PAM Authentication plugin
+Adds Unix Pluggable Authentication Module (PAM) support to Jenkins
+1.3		
+Uninstall
+	
+Performance Plugin
+This plugin integrates JMeter reports, JUnit reports, wrk output, and Iago reports into Hudson.
+2.2	
+Downgrade to 2.0
+Uninstall
+	
+Pipeline
+A suite of plugins that lets you orchestrate automation, simple or complex. See Pipeline as Code with Jenkins for more details.
+2.5	
+Downgrade to 2.4
+Uninstall
+	
+Pipeline Graph Analysis Plugin
+Provides a REST API to access pipeline and pipeline run data.
+1.3		
+Uninstall
+	
+Pipeline: API
+Plugin that defines Pipeline API.
+2.13	
+Downgrade to 2.8
+Uninstall
+	
+Pipeline: Basic Steps
+Commonly used steps for Pipelines.
+2.4	
+Downgrade to 2.3
+Uninstall
+	
+Pipeline: Build Step
+Adds the Pipeline step build to trigger builds of other jobs.
+2.5	
+Downgrade to 2.4
+Uninstall
+	
+Pipeline: Declarative Agent API
+Replaced by Pipeline: Declarative Extension Points API plugin.
+1.1.1		
+Uninstall
+	
+Pipeline: Declarative Extension Points API
+APIs for extension points used in Declarative Pipelines.
+1.1.2		
+Uninstall
+	
+Pipeline: GitHub Groovy Libraries
+Allows Pipeline Grrovy libraries to be loaded on the fly from GitHub.
+1.0		
+Uninstall
+	
+Pipeline: Groovy
+Pipeline execution engine based on continuation passing style transformation of Groovy scripts.
+2.29	
+Downgrade to 2.24
+Uninstall
+	
+Pipeline: Input Step
+Adds the Pipeline step input to wait for human input or approval.
+2.5		
+Uninstall
+	
+Pipeline: Job
+Defines a new job type for pipelines and provides their generic user interface.
+2.10	
+Downgrade to 2.9
+Uninstall
+	
+Pipeline: Milestone Step
+Plugin that provides the milestone step
+1.3.1	
+Downgrade to 1.3
+Uninstall
+	
+Pipeline: Model API
+Model API for Declarative Pipeline.
+1.1.2		
+Uninstall
+	
+Pipeline: Model Definition
+An opinionated, declarative Pipeline.
+1.1.2		
+Uninstall
+	
+Pipeline: Multibranch
+Enhances Pipeline plugin to handle branches better by automatically grouping builds from different branches.
+2.14	
+Downgrade to 2.9.2
+Uninstall
+	
+Pipeline: Nodes and Processes
+Pipeline steps locking agents and workspaces, and running external processes that may survive a Jenkins restart or slave reconnection.
+2.10	
+Downgrade to 2.8
+Uninstall
+	
+Pipeline: REST API Plugin
+Provides a REST API to access pipeline and pipeline run data.
+2.6	
+Downgrade to 2.4
+Uninstall
+	
+Pipeline: SCM Step
+Adds a Pipeline step to check out or update working sources from various SCMs (version control).
+2.4	
+Downgrade to 2.3
+Uninstall
+	
+Pipeline: Shared Groovy Libraries
+Shared libraries for Pipeline scripts.
+2.7	
+Downgrade to 2.5
+Uninstall
+	
+Pipeline: Stage Step
+Adds the Pipeline step stage to delineate portions of a build.
+2.2		
+Uninstall
+	
+Pipeline: Stage Tags Metadata
+Library plugin for Pipeline stage tag metadata.
+1.1.2		
+Uninstall
+	
+Pipeline: Stage View Plugin
+Pipeline Stage View Plugin.
+2.6	
+Downgrade to 2.4
+Uninstall
+	
+Pipeline: Step API
+API for asynchronous build step primitive.
+2.9	
+Downgrade to 2.7
+Uninstall
+	
+Pipeline: Supporting APIs
+Common utility implementations to build Pipeline Plugin
+2.14	
+Downgrade to 2.12
+Uninstall
+	
+Plain Credentials Plugin
+Allows use of plain strings and files as credentials.
+1.4	
+Downgrade to 1.3
+Uninstall
+	
+Prerequisite build step plugin
+This plugin will check the status of other jobs before continuing
+The other jobs must exist, have been built, not building and the last build must be stable.
+1.1		
+Uninstall
+	
+Quality Center Plugin
+Trigger HP Quality Center test sets from Hudson
+1.2.1		
+Uninstall
+	
+Resource Disposer Plugin
+Dispose resources asynchronously. Utility plugin for resources that require more retries or take a long time to delete.
+0.6	
+Downgrade to 0.3
+Uninstall
+	
+SCM API Plugin
+This plugin provides a new enhanced API for interacting with SCM systems.
+2.1.1	
+Downgrade to 1.3
+Uninstall
+	
+Script Security Plugin
+Allows Jenkins administrators to control what in-process scripts can be run by less-privileged users.
+1.27	
+Downgrade to 1.25
+Uninstall
+	
+Selenium Capability Axis
+Axis for current capabilities of a Selenium Server
+0.0.6		
+Uninstall
+	
+Selenium HTML report
+This is an jenkins plugin to visualize the results of selenium tests
+1.0		
+Uninstall
+	
+Skype notifier plugin
+Sends build notifications to skype contacts.
+
+This plugin requires manual steps, please check plugin wiki
+
+Note that the instant-messaging plugin 1.16 is a requirement for this plugin. Please make sure that it is installed, too!
+
+1.1.0		
+Uninstall
+	
+Slack Notification Plugin
+This plugin is a Slack notifier that can publish build status to Slack channels.
+2.2	
+Downgrade to 2.1
+Uninstall
+	
+Slave Monitor for system load average
+This plugin checks the slaves system load average.
+1.2		
+Uninstall
+	
+slave-status
+Visit a url like http://myslave:3141 to see an XML document giving the slave's status. Use automated tools like curl or nagios to check this data periodically, if you want to.
+1.6		
+Uninstall
+	
+SmartFrog Builder
+SmartFrog support plugin for Hudson developed by Dominik Pospisil, currently maintained by Radoslav Husar/Vojtech Juranek.
+2.2.6		
+Uninstall
+	
+SMS Notification
+This is a plugin to send SMS notification for failed build.
+1.2		
+Uninstall
+	
+SonarQube Scanner for Jenkins
+This plugin allows an easy integration of SonarQube, the open source platform for Continuous Inspection of code quality.
+2.6.1	
+Downgrade to 2.5
+Uninstall
+	
+SSH Credentials Plugin
+Allows storage of SSH credentials in Jenkins
+1.13	
+Downgrade to 1.12
+Uninstall
+	
+SSH Slaves plugin
+Allows to launch agents over SSH, using a Java implementation of the SSH protocol.
+1.17	
+Downgrade to 1.12
+Uninstall
+	
+Statistics Gatherer Plugin
+Captures Statistics related to Jenkins Builds, Build Step, SCM checkouts, Jobs and Queue and sends them where you want.
+1.1.2	
+Downgrade to 1.1.0
+Uninstall
+	
+Structs Plugin
+Library plugin for DSL plugins that need names for Jenkins objects.
+1.6	
+Downgrade to 1.5
+Uninstall
+	
+Subversion Plug-in
+2.7.2	
+Downgrade to 2.7.1
+Uninstall
+	
+Tattletale plugin
+Integration plugin for Tattletale analysis tool.
+0.3		
+Uninstall
+	
+Test Results Analyzer Plugin
+This plugin shows history of test execution results in a tabular or graphical format.
+0.3.4		
+Uninstall
+	
+Tests Selector
+This plugin allows you to choose specific tests you want to run.
+1.3.3		
+Uninstall
+	
+Text File Operations
+Create or update a text file easily. Save it with any extension of your choice.
+1.3.2		
+Uninstall
+	
+Timestamper
+Adds timestamps to the Console Output
+1.8.8	
+Downgrade to 1.8.7
+Uninstall
+	
+Token Macro Plugin
+This plug-in adds reusable macro expansion capability for other plug-ins to use.
+2.1	
+Downgrade to 2.0
+Uninstall
+	
+Windows Exe Runner Plugin
+This plug-in is used to run the Windows Exe.
+1.2		
+Uninstall
+	
+Windows Slaves Plugin
+Allows you to connect to Windows machines and start slave agents on them.
+1.3.1	
+Downgrade to 1.2
+Uninstall
+	
+Workspace Cleanup Plugin
+This plugin deletes the project workspace after a build is finished.

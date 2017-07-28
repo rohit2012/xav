@@ -1,0 +1,1 @@
+call mvn install:install-file -Dfile=lib/com4j.jar -DgroupId=com.mercury.qualitycenter -DartifactId=com4j -Dversion=1.0 -Dpackaging=jar
