@@ -1,0 +1,21 @@
+WebDriver driver;
+            System.setProperty("webdriver.chrome.driver", "D:\\Software And Tools\\chromedriver_win32\\chromedriver.exe");
+            ChromeOptions options= new ChromeOptions();
+            System.out.println("Data");
+            options.addArguments("disable-geolocation");
+            DesiredCapabilities cap = DesiredCapabilities.chrome();
+            cap.setCapability(ChromeOptions.CAPABILITY, options);
+            cap = cap.merge(DesiredCapabilities.chrome());
+            driver = new ChromeDriver();
+            /*ffprofile.setPreference("geo.enabled", false);
+            ffprofile.setPreference("geo.enabled", false);        
+            ffprofile.setPreference("geo.provider.use_corelocation", false);
+            ffprofile.setPreference("geo.prompt.testing", false);
+            ffprofile.setPreference("geo.prompt.testing.allow", false);*/
+            //FirefoxOptions options=new FirefoxOptions();
+            //options.setProfile(ffprofile);
+            /*driver=new FirefoxDriver(ffprofile);*/
+            
+
+            //driver=new FirefoxDriver();
+            driver.get("https://www.olx.in/");

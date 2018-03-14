@@ -1,0 +1,166 @@
+
+
+package com.xavient.amr;
+
+import java.io.DataInputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import com.jcraft.jsch.Channel;
+import com.jcraft.jsch.ChannelExec;
+import com.jcraft.jsch.JSch;
+import com.jcraft.jsch.JSchException;
+import com.jcraft.jsch.Session;
+
+public class AMRUtility2 {
+                static String hostName = "slpnqapp03.twcable.com";
+                static String userName = "V677465";
+                static String password = "Siyakeram@6";
+                
+                public static void main(String[] args) {
+                                AMRUtility2 obj= new AMRUtility2();
+                                String abc =obj.executePbCommand("fwtwc" ,"Siyakeram@6", "ls");
+                                System.out.println("final string is "+abc);
+                }
+                /**
+                * This method is used to create a connection with Unix box
+                * @param hostName host name of Unix server
+                * @param userName This is the user name of Unix machine
+                * @param password This is the login password of Unix machine
+                * @return return the connection object
+                * @author P2706477
+                * @since 01/03/2018
+                */
+                public Session connectToUnix(String hostName, String userName, String password) 
+                {
+
+                                JSch jsch = new JSch();
+                                Session session = null;
+                                try 
+                                {
+                                                session = jsch.getSession(userName, hostName);
+                                                session.setPassword(password);
+                                                java.util.Properties config = new java.util.Properties();
+                                                config.put("StrictHostKeyChecking", "no");
+                                                config.put("PreferredAuthentications",
+                                                                                "publickey,keyboard-interactive,password");
+                                                session.setConfig(config);
+                                                session.connect();
+                                } 
+                                catch (JSchException e) 
+                                {
+                                                e.printStackTrace();
+                                }
+                                return session;
+                }
+                
+                /**
+                * This method is used to execute command on Unix and return the  console output in string
+                * @param command1 command that need to execute on server
+                * @return
+                */
+                public String executePbCommand(String remoteUser,String remoteUserPwd,String command) 
+                {
+                                StringBuffer result = new StringBuffer();
+                                try 
+                                {
+                                                Session session = connectToUnix(hostName,userName,password);
+                                                Channel channel = session.openChannel("exec");                                            
+                                                String cmd = "pbrun su - "+remoteUser;                                               
+                                                ((ChannelExec) channel).setCommand(cmd);
+                                                ((ChannelExec)channel).setPty(true);
+                                                ((ChannelExec) channel).setErrStream(System.err);
+                                                InputStream in = channel.getInputStream();
+                                                OutputStream out=channel.getOutputStream();
+                                                channel.connect();
+            String readPwdData = readData(in,"Password:");//first found password prompt then enter password
+            if(readPwdData.contains("Password:"))
+            {
+            out.write((remoteUserPwd+"\r").getBytes());
+            out.flush();
+            }            
+            String remoteUserData = readData(in,remoteUser+"@");//first found expected prompt then execute further command
+            if(remoteUserData.contains(remoteUser+"@"))
+            {
+            out.write((command+"\n").getBytes());
+            out.flush(); 
+            }
+          while(true)
+          {
+                                                byte[] tmp = new byte[1024];
+                                                                while (in.available() > 0 )
+                                                                {
+                                                                                int i = in.read(tmp, 0, 1024);
+                                                                                System.out.println("Value of i is :"+i);
+                                                                                if (i < 0)
+                                                                                                break;
+                                                                                String resultString = new String(tmp, 0, i);
+                                                                                result.append(resultString);
+                                                                }
+                                                                if (channel.isClosed()) 
+                                                                {
+                                                                                break;
+                                                                }
+                                                                try 
+                                                                {
+                                                                                Thread.sleep(1000);
+                                                                } 
+                                                                catch (Exception ee) 
+                                                                {
+                                                                                ee.printStackTrace();
+                                                                
+                                                                }
+                                                                
+                                                channel.disconnect();
+                                                session.disconnect();
+                                } 
+                }
+                                catch (Exception e) 
+                                {
+                                                e.printStackTrace();
+                                }
+                                return result.toString();
+                }
+                
+                public String readData(InputStream in , String pattern){
+                                StringBuffer buffer = new StringBuffer();
+        try
+        {
+                synchronized (in) {
+                                                                
+                        byte[] buf = new byte[2048];
+                        DataInputStream dataInputStream = new DataInputStream(in);
+                        dataInputStream.read(buf);
+                        String bufferData = new String(buf).trim();
+
+                        if(!bufferData.equalsIgnoreCase("null"))
+                        {
+                                                buffer.append(bufferData);
+                                if(buffer.toString().contains(pattern))
+                                {
+                                        //System.out.println("Final response found is ["
+                                         //               + buffer.toString() + "]\n\n\n\n\n");
+                                        return buffer.toString();
+                                        
+                                }
+                        
+                                else
+                                {
+                                        System.out.println("Response not found so again checking ");
+                                        return readData( in , pattern); //recursion till response not fo;);
+                                }
+                        }
+                        
+                }
+                
+        }
+                catch(Exception ex)
+                {
+                        ex.printStackTrace();
+                }
+                return null;
+        }
+
+
+}
+
